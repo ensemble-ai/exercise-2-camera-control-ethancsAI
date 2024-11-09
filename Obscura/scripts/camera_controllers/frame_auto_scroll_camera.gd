@@ -1,8 +1,8 @@
 class_name FrameAutoScroll
 extends CameraControllerBase
 
-@export var top_left: Vector2 = Vector2(-10, 0)
-@export var bottom_right: Vector2 = Vector2(0, -10)
+@export var top_left: Vector2 = Vector2(-10, 10)
+@export var bottom_right: Vector2 = Vector2(10, -10)
 @export var auto_speed: Vector3 = Vector3(7.0, 0.0, 7.0)
 
 var top_left_x := top_left.x
